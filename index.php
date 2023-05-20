@@ -63,7 +63,7 @@ if (isDescendingOrder($array)) {
     echo "The array is already arranged in descending order.";
 } else {
     do {
-        for ($i = count($array) -1 ; $i >=0 ; $i--) {
+        for ($i = count($array) -2 ; $i >=0 ; $i--) {
             if ($array[$i] < $array[$i+1]) {
                 $temp = $array[$i + 1];
                 $array[$i + 1] = $array[$i];
